@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Overlay Images</title>
+  <style>
+    .image-container {
+      position: relative;
+      width: 300px; /* Set the width of your container */
+    }
+
+    .background-image {
+      width: 100%;
+      height: auto%;
+      transform: translate(200%, 10%)
+    }
+
+    .overlay-image {
+      position: absolute;
+      width: 60px; /* Set the width of the overlay image */
+      height: auto;
+    }
+
+    .overlay-image.first {
+      bottom: 40px; /* Adjust the top position for the first overlay image */
+      left: 670px; /* Adjust the left position for the first overlay image */
+    }
+
+    .overlay-image.second {
+      bottom: 40px; /* Adjust the top position for the second overlay image */
+      left: 770px; /* Adjust the left position for the second overlay image */
+    }
+   
+  </style>
+</head>
+<body>
+
+<div class="image-container">
+  <img src="https://imgur.com/VyS9PIu.jpg" alt="Background Image" class="background-image">
+<a href =https://www.google.com/search?q=Tango+Tamari+google&sca_esv=46b5433e4b9522cf&rlz=1C1ONGR_enIN965IN965&biw=1536&bih=695&sxsrf=ACQVn08ucH2T9Pfac64MvuGqWTaxlNpxew%3A1706996424534&ei=yLK-ZdOoIO_lseMP--ajsAg&ved=0ahUKEwjTrJGckZCEAxXvcmwGHXvzCIYQ4dUDCBA&uact=5&oq=Tango+Tamari+google&gs_lp=Egxnd3Mtd2l6LXNlcnAiE1RhbmdvIFRhbWFyaSBnb29nbGUyBRAhGKABMgUQIRigATIFECEYoAEyBRAhGKABSPcQUKkCWMMOcAF4AZABAJgBpQGgAcMHqgEDMC43uAEDyAEA-AEBwgIQEC4YxwEYrwEYsAMYjgUYJ8ICChAAGEcY1gQYsAPCAhMQLhivARjHARiABBiKBRiOBRgnwgIFEAAYgATCAgcQABiABBgKwgIgEC4YrwEYxwEYgAQYigUYjgUYlwUY3AQY3gQY4ATYAQHCAgcQIRgKGKABwgIEECEYFeIDBBgAIEGIBgGQBga6BgYIARABGBQ&sclient=gws-wiz-serp#lrd=0x3be7c9d409b5be67:0x1fb24489807bacbf,3>
+  <img src="https://imgur.com/pdOz4om.jpg" alt="Overlay Image" class="overlay-image first">
+<a href =https://www.zomato.com/mumbai/tango-tamari-juhu/reviews>
+  <img src="https://imgur.com/2Ote2Tp.png" alt="Overlay Image" class="overlay-image second">
+</div>
+
+</body>
+</html>
